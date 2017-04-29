@@ -1,0 +1,60 @@
+/* algorithm for baby2.class starts*/
+
+
+step 1: start.
+step 2: declare global integer variables named counter, enter, alter, pressed.
+step 3: create act() method.
+  /* inside act() */
+        step 4: check if "1" is pressed?
+            If true: set "pressed" value to 1.
+            If false: Goto step 5.
+
+        step 5: check if "escape" is pressed?
+            If true: set "enter" value to 0.
+            If false: Goto step 6.
+
+        step 6: check if "space" is pressed?
+            If true: set "enter" value to 1.
+            If false: Goto step 7.
+
+        step 7: check if "pressed" equals to '0'?
+            If true: check if "2" or "3" is pressed?
+                        If true: set "enter" value to 1.
+                        If false: Goto step 8.
+            If false: Goto step 8.
+
+        step 8: check if "enter" equals to 1?
+            If true: call method move().
+            If false: goto step 9.
+  /* act() ends */
+
+  step 9: create move() method.
+
+  /* inside move() */
+        step 10: create actor object of baby2.class and get object number/actor number '0'.
+
+        step 11: check if "alter" equals '0'.
+            If true: set y-axis location of all baby objects to current y-axis - 2.
+                     set y-axis location of selected baby actor i.e actor '0' to current y-axis - 1.
+                     increase "counter" value by 1.
+            If false: Goto step 12.
+
+        step 12: check if "alter" equals '1'
+            If true: set y-axis location of all baby objects to current y-axis + 2.
+                     set y-axis location of selected baby actor i.e actor '0' to current y-axis + 1.
+                     decrease "counter" value by 1.
+            If false: Goto step 13.
+
+        step 13: check if "counter" equals '80'.
+            If true: set "alter" value to 1.
+            If false: Goto step 14.
+
+        step 14: check if "counter" equals '0'.
+            If true: set "alter" value to '0'.
+            if false: Goto step 15.
+
+  /* move() ends */
+
+  step 15: stop
+
+  /* algorithm for baby2.class ends*/

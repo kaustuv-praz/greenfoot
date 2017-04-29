@@ -1,0 +1,21 @@
+/* algorithm for ball1.class createWall() method starts*/
+
+step 1: start.
+step 2: check if "counter_wall" value is '0'.
+    If true:  step 3: execute the below statement for 60 times.
+                          - create 2 objects of xborder.class
+                          - add each object on top and bottom of world with x-coordinate '0'.
+                          - set next image x-axis location to current x-axis + 10px.
+
+              step 4: execute the below statement for 40 times.
+                          - create 2 object of yborder.class
+                          - add each object on left and right of the world with y-coordinate '0'.
+                          - set next image y-axis location to current y-axis + 10px.
+
+    If false: Goto step 5.
+
+step 5: increase "counter_wall" value by 1.
+
+step 6: stop.
+
+/* algorithm for ball1.class createWall() method ends*/

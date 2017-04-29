@@ -1,0 +1,9 @@
+/* algorithm of game */
+
+step 1: Start.
+step 2: Show the Game cover page.
+step 3: Declare a special key to pause the game and if pressed, pause the game then allow the user to change game mode or resume the game.
+step 4: Enter the game mode on the basis of user input.
+step 5: Stop.
+
+/* game algorithm ends */

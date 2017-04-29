@@ -1,0 +1,15 @@
+/* basic mode algorithm */
+
+step 1: Start.
+step 2: Set the below statement in loop until the game is paused.
+
+    step 3: Move the ball with certain speed.
+    step 4: If ball touches the barrier, do nothing.
+    step 5: If ball touches either babies, reflect the ball in 180 degree.
+    step 6: Show the pause instruction when game is paused.
+    
+  /* loop statements ends */
+
+step 6: Stop.
+
+/* basic mode algorithm ends */

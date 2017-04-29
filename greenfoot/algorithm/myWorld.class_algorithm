@@ -1,0 +1,9 @@
+/* algorithm for MyWorld.class starts*/
+
+step 1: start
+step 2: create new object named "cover" of cover.class
+step 3: add object cover in MyWorld.
+step 4: set location of object added.
+step 5: stop
+
+/* algorithm for MyWorld.class ends*/

@@ -1,0 +1,54 @@
+/* algorithm for ball1.class isWorldEnd() method starts*/
+
+step 1: start.
+step 2: if 'is ball is at top of screen'?
+          if true: Goto step 3.
+
+                Step 3: if 'is ball facing on north-west direction'?
+                            if true: set ball rotation to south-west direction.
+                                     call ballWallSound() method and Goto step 4.
+                            if false: Goto step 4.
+                Step 4: if 'is ball facing on north-east direction'?
+                            if true: set ball rotation to south-east direction.
+                                     call ballWallSound() method and Goto step 5.
+                            if false: Goto step 5.
+
+step 5: if 'is ball is at bottom of screen'?
+          if true: Goto step 6.
+
+                Step 6: if 'is ball facing on south-west direction'?
+                            if true: set ball rotation to north-west direction.
+                                     call ballWallSound() method and Goto step 7.
+                            if false: Goto step 7.
+                Step 7: if 'is ball facing on south-east direction'?
+                            if true: set ball rotation to north-east direction.
+                                     call ballWallSound() method and Goto step 8.
+                            if false: Goto step 8.
+
+step 8: if 'is ball is at left-most side of screen'?
+          if true: Goto step 9.
+
+                Step 9: if 'is ball facing on north-west direction'?
+                            if true: set ball rotation to north-east direction.
+                                     call ballWallSound() method and Goto step 10.
+                            if false: Goto step 10.
+                Step 10: if 'is ball facing on south-west direction'?
+                            if true: set ball rotation to south-east direction.
+                                     call ballWallSound() method and Goto step 11.
+                            if false: Goto step 11.
+                step 11: call baby2Score() method.
+
+step 12: if 'is ball is at right-most side of screen'?
+          if true: Goto step 13.
+
+                Step 13: if 'is ball facing on north-east direction'?
+                            if true: set ball rotation to north-west direction.
+                                     call ballWallSound() method and Goto step 14.
+                            if false: Goto step 14.
+                Step 14: if 'is ball facing on south-east direction'?
+                            if true: set ball rotation to south-west direction.
+                                     call ballWallSound() method and Goto step 15.
+                            if false: Goto step 15.
+                Step 15: call baby1Score() method.
+
+Step 16: Stop.

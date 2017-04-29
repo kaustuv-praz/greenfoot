@@ -1,0 +1,12 @@
+/* algorithm for paused.class starts*/
+
+step 1: start.
+step 2: create act() method.
+  /* inside act() */
+step 3: check if "1", "2", "3" or "space" is pressed by user.
+          If "true":  remove the paused object from world.
+          If "false": Goto step 4:
+  /* end of act() */
+step 4: stop.
+
+/* algorithm for paused.class ends*/

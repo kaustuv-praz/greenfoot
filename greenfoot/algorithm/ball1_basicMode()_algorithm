@@ -1,0 +1,23 @@
+/* algorithm for ball1.class basicMode() method starts*/
+
+step 1: start.
+step 2: move the ball by 3 unit on the direction the ball is facing.
+step 3: check if the ball get intersect with barrier?
+    If true: move the ball by 1 unit on the direction the ball is facing.
+    If false: Goto step 4.
+
+step 4: check if the ball get intersect with baby1?
+    If true: turn the ball by 180 degree.
+             move the ball by 5 unit on the direction the ball faces.
+    If false: Goto step 5.
+
+step 5: check if the ball get intersect with baby2?
+    If true: turn the ball by 180 degree.
+             move the ball by 5 unit on the direction the ball faces.
+    If false: Goto step 6.
+
+step 6: set "current_mode" value to 1.
+
+step 7: stop.
+
+/* algorithm for ball1.class basicMode() method ends*/

@@ -1,0 +1,21 @@
+/* algorithm for score.class starts*/
+
+step 1: start.
+step 2: create public method that takes integer parameter 'x', named score001.
+
+  /* inside score001 */
+
+      step 3: create new greenfoot image with string "score" + x.
+  /* end of score001 */
+
+step 4: create public method that takes integer parameter 'x', named score002.
+
+  /* inside score002 */
+
+      step 5: create new greenfoot image with string "score" + x.
+
+  /* score002 ends */
+
+step 5: stop
+
+/* algorithm for score.class ends*/

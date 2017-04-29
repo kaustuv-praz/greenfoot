@@ -1,0 +1,10 @@
+/* algorithm for ball1.class intermediateMode() method starts*/
+
+step 1: start.
+step 2: move the ball by the value of "speed" on the direction the ball is facing.
+step 3: call createBabies() method.
+step 4: call intermediateReflection() method.
+step 5: call scoreSystem() method.
+step 6: set "current_mode" value to 2.
+
+/* algorithm for ball1.class intermediateMode() method ends*/

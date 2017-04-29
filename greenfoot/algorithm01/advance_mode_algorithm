@@ -1,0 +1,36 @@
+/* advance mode algorithm */
+
+
+step 1: Start.
+step 2: Declare Variable baby1_Score, baby2_Score, ball_speed.
+step 3: Add 2 babies on each team/side making all total of 6 babies.
+step 4: Add border on the game screen.
+
+step 5: Set the below statement in loop until the game is paused.
+
+    step 6: If ball touches the barrier, do nothing.
+    step 7: If ball touches either babies, reflect the ball random direction.
+    step 8: If ball touches wall, reflect the ball in specific direction. /* to make it look more natural */
+    step 9: If the ball is reflected after touching right side wall, then the ball should not touch right side babies.
+    step 10: If the ball is reflected after touching left side wall, then the ball should not touch left side babies.
+
+    step 11: When ball touches babies
+                produce sound.
+    step 12: When ball touches walls
+                produce sound.
+
+    step 13: Make the right side babies move vertically up and down automatically.
+    step 14: If the ball touches right side wall, then increase the value of baby1_Score by 1.
+              baby1_Score = baby1_Score + 1   OR  baby1_Score++
+    step 15: If the ball touches left side wall, then increase the value of baby2_Score by 1.
+              baby2_Score = baby2_Score + 1   OR  baby2_Score++
+    step 16: Control the baby on left side with keys individually.
+    step 17: If baby1_Score is greater than or equals to 5. Declare baby on left side is winner.
+             Goto step 20.
+    step 18: If baby2_Score is greater than or equals to 5. Declare baby on right side is winner.
+             Goto step 20.
+    step 19: If the game is paused, show the pause instruction.
+
+  /* loop statements ends */
+
+step 20: Stop.

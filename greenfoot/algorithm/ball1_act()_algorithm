@@ -1,0 +1,57 @@
+/* algorithm for ball1.class act() method starts*/
+
+step 1: start.
+step 2: check if "mode_set" equals '0'.
+    If true: check if '1' is pressed?
+                If true: set "enter" value to 1.
+                         set "mode_set" value to 1;
+                If false: Goto step 3.
+
+             step 3: check if '2' is pressed?
+                If true: set "enter" value to 2.
+                         set "mode_set" value to 1.
+                If false: Goto step 4.
+
+             step 4: check if '3' is pressed?
+                If true: set "enter" value to 3.
+                         set "mode_set" value to 1.
+                If false: Goto step 5.
+
+    If false: Got step 5.
+
+step 5: check if "mode_set" equals to '1'.
+    If true: check if "escape" is pressed?
+                If true: set "enter" to 4.
+                         set "mode_set" to 2.
+                If false: Goto step 6.
+
+    If false: Goto step 6.
+
+step 6: check if "enter" equals to '1'
+    If true: call basicMode() method.
+    If false: Goto step 7.
+
+step 7: check if "enter" equals to '2'.
+    If true: call intermediateMode() method.
+    If false: Goto step 8.
+
+step 8: check if "enter" equals to '3'.
+    If true: call advanceMode() method.
+    If false: Goto step 9.
+
+step 9: check if "enter" equals to '4'.
+    If true: call gamePaused() method.
+
+             check if "space" is pressed?
+                If true: set "current_mode" value to "enter".
+                If false: Goto step 10.
+
+    If false: Goto step 10.
+
+step 10: check if "enter" equals to '5'.
+    If true: call gameOver() method.
+    If false: Goto step 11.
+
+step 11: stop.
+
+/* algorithm for ball1.class act() method ends*/

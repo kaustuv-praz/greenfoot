@@ -1,0 +1,36 @@
+/* algorithm for baby1.class starts*/
+
+step 1: start.
+step 2: declare global integer variables enter and choose with '0' as value.
+step 3: create act() method.
+
+  /* inside act() */
+
+    step 4: check if "2" or "3" is pressed?
+        If true: set enter value to 1.
+        if false: Goto step 5.
+
+    step 5: check if enter is equal to 1?
+        If true: step 6: check if "a" is pressed?
+                    If true: set choose value to 1.
+                    If false: Goto step 7.
+                 step 7: else if "s" is pressed?
+                    If true: set choose value to 0.
+                    If false: Goto step 8.
+                 step 8: else if "d" is pressed?
+                    If true: set choose value to 2.
+                    If false: Goto step 9.
+
+                 step 9: check if choose equals 0 or 1 or 2?
+                    If true: step 10: create actor object of baby1.class and get object number/actor number "choose".
+                             step 11: check if "up arrow" is pressed?
+                                If true: set the selected actor location of y-axis to current y-axis - 3.
+                                If false: Goto step 12.
+                             step 12: check if "down arrow" is pressed?
+                                If true: set the selected actor location of y-axis to current y-axis + 3.
+                                If false: Goto step 13.
+        If false: Goto step 13.
+  /* end of act() */
+step 13: stop
+
+/* algorithm for baby1.class ends*/
